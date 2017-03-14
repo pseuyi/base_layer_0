@@ -1,0 +1,99 @@
+$bg: #fcfcfc;
+$bg2: #e2e2e2;
+
+$db: solid 1px red;
+$bb: solid 1px black;
+$fat: solid 0.6rem #912249;
+
+$ac: #912249;
+
+$ff: 'Source Sans Pro', sans-serif;
+
+body {
+  font-family: $ff;
+  font-size: 12px;
+  background-color: $bg;
+  padding: 8rem 20rem;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.loading {
+  padding-top: 10em;
+  width: 250px;
+  // margin: auto;
+}
+#heading {
+  font-family: 'Lora', serif;
+  display: block;
+  color: $ac;
+  font-size: 6rem;
+  line-height: 8rem;
+  margin-bottom: 2.5rem;
+  border-left: $fat;
+  border-bottom: $fat;
+  .subheading {
+    font-family: $ff;
+    color: blue;
+  }
+}
+
+.navbar {
+  font-family: 'Helvetica', sans-serif;
+  padding: 0 20rem;
+  height: 8rem;
+  background-color: $bg;
+  #face {
+    //padding-left: 0;
+    color: white;
+    padding: 15px;
+    background-color: blue;
+  }
+  .nav > li > a {
+    color: $ac;
+  }
+  li.nav-item.active,
+  a.nav-link.active {
+    background-color: #eeeeee;
+  }
+}
+.dropdown-menu {
+  min-width: 129px;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    color: black;
+    background-color: #eeeeee;
+    background-image: none;
+}
+
+.content {
+  padding: 0;
+
+}
+
+.col-md-1,
+.col-md-3,
+.col-md-4,
+.col-md-6,
+.col-md-8 {
+  margin-bottom: 3rem;
+}
+.col-md-1 > .col-content,
+.col-md-3 > .col-content {
+  height: 2rem;
+  // border: $bb;
+  background-color: $bg2;
+}
+.col-md-4 > .col-content,
+.col-md-6 > .col-content,
+.col-md-8 > .col-content {
+  height: 28rem;
+  // border: $bb;
+  background-color: $bg2;
+}
+.big.col-md-4 > .col-content,
+.big.col-md-8 > .col-content, {
+  height: 60rem;
+  // border: $bb;
+  background-color: $bg2;
+}
