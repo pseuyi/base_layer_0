@@ -16,9 +16,8 @@ export default class App extends Component {
     setTimeout(()=>this.setState({ loading: false }), 1200)
   }
   render () {
-  console.log('rendering')
     return (
-      <div>
+      <div id="app-container">
         <Navbar />
         <h1 id="heading"><br/>{' .  base layer '}<span className='subheading'>O</span></h1>
         <Content />

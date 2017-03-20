@@ -13,11 +13,10 @@ body {
   font-family: $ff;
   font-size: 12px;
   background-color: $bg;
-  padding: 8rem 20rem;
+  padding: 8rem 4rem;
   position: relative;
   overflow-y: scroll;
 }
-
 .loading {
   padding-top: 10em;
   width: 250px;
@@ -37,10 +36,9 @@ body {
     color: blue;
   }
 }
-
 .navbar {
   font-family: 'Helvetica', sans-serif;
-  padding: 0 20rem;
+  padding: 0 4rem;
   height: 8rem;
   background-color: $bg;
   #face {
@@ -65,18 +63,24 @@ body {
     background-color: #eeeeee;
     background-image: none;
 }
-
 .content {
   padding: 0;
-
+  display: block;
 }
-
+.row h1 {
+  margin: 0 15px;
+  text-align: center;
+  background-color: $bg2;
+  color: $ac;
+}
 .col-md-1,
+.col-md-2,
 .col-md-3,
 .col-md-4,
 .col-md-6,
 .col-md-8 {
   margin-bottom: 3rem;
+  // padding: 0;
 }
 .col-md-1 > .col-content,
 .col-md-3 > .col-content {
@@ -91,9 +95,14 @@ body {
   // border: $bb;
   background-color: $bg2;
 }
-.big.col-md-4 > .col-content,
-.big.col-md-8 > .col-content, {
+
+.big .col-content, {
   height: 60rem;
   // border: $bb;
   background-color: $bg2;
+}
+
+.col-content img {
+  width: 100%;
+  height: 100%;
 }
