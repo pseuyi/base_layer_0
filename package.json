@@ -1,5 +1,5 @@
 {
-  "name": "base_layer0",
+  "name": "base_layer_0",
   "version": "1.0.0",
   "description": "",
   "main": "app/js/index.js",
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pseuyi/PROJECT_NAME.git"
+    "url": "git+https://github.com/pseuyi/base_layer_0.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pseuyi/PROJECT_NAME/issues"
+    "url": "https://github.com/pseuyi/base_layer_0/issues"
   },
   "dependencies": {
     "compression": "^1.6.2",
