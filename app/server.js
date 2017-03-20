@@ -11,7 +11,7 @@ app.use(express.static('public'))
 
 // send all requests to index.html
 app.get('*', function (req, res) {
-  res.sendFile(path.join(__dirname, 'public'))
+  res.sendFile(path.join(__dirname, 'index.html'))
 })
 
 // production server, localhost:8080
