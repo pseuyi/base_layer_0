@@ -21876,7 +21876,7 @@
 	      _react2.default.createElement(
 	        "div",
 	        { className: "col-content" },
-	        _react2.default.createElement("img", { src: "/images/2.jpg", alt: "silk" })
+	        _react2.default.createElement("img", { src: "/base_layer_0/public/images/2.jpg", alt: "silk" })
 	      )
 	    ),
 	    _react2.default.createElement(
@@ -21885,7 +21885,7 @@
 	      _react2.default.createElement(
 	        "div",
 	        { className: "col-content" },
-	        _react2.default.createElement("img", { src: "/images/1.jpg", alt: "silk" })
+	        _react2.default.createElement("img", { src: "/base_layer_0/public/images/1.jpg", alt: "silk" })
 	      )
 	    )
 	  );
@@ -21924,7 +21924,7 @@
 	      _react2.default.createElement(
 	        "div",
 	        { className: "col-content" },
-	        _react2.default.createElement("img", { src: "/images/4.jpg", alt: "silk" })
+	        _react2.default.createElement("img", { src: "/base_layer_0/public/images/4.jpg", alt: "silk" })
 	      )
 	    ),
 	    _react2.default.createElement(
@@ -21933,7 +21933,7 @@
 	      _react2.default.createElement(
 	        "div",
 	        { className: "col-content" },
-	        _react2.default.createElement("img", { src: "/images/3.jpg", alt: "silk" })
+	        _react2.default.createElement("img", { src: "/base_layer_0/public/images/3.jpg", alt: "silk" })
 	      )
 	    ),
 	    _react2.default.createElement(
@@ -21942,7 +21942,7 @@
 	      _react2.default.createElement(
 	        "div",
 	        { className: "col-content" },
-	        _react2.default.createElement("img", { src: "/images/4.jpg", alt: "silk" })
+	        _react2.default.createElement("img", { src: "/base_layer_0/public/images/4.jpg", alt: "silk" })
 	      )
 	    )
 	  );
@@ -21981,7 +21981,7 @@
 	      _react2.default.createElement(
 	        "div",
 	        { className: "col-content" },
-	        _react2.default.createElement("img", { src: "/images/1.jpg", alt: "silk" })
+	        _react2.default.createElement("img", { src: "/base_layer_0/public/images/1.jpg", alt: "silk" })
 	      )
 	    ),
 	    _react2.default.createElement(
@@ -21990,7 +21990,7 @@
 	      _react2.default.createElement(
 	        "div",
 	        { className: "col-content" },
-	        _react2.default.createElement("img", { src: "/images/5.jpg", alt: "silk" })
+	        _react2.default.createElement("img", { src: "/base_layer_0/public/images/5.jpg", alt: "silk" })
 	      )
 	    ),
 	    _react2.default.createElement(
@@ -21999,7 +21999,7 @@
 	      _react2.default.createElement(
 	        "div",
 	        { className: "col-content" },
-	        _react2.default.createElement("img", { src: "/images/1.jpg", alt: "silk" })
+	        _react2.default.createElement("img", { src: "/base_layer_0/public/images/1.jpg", alt: "silk" })
 	      )
 	    )
 	  );
